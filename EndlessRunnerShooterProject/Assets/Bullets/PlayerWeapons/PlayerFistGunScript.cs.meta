@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2c3f7faa4ebbb3e439466a9e28608fba
+timeCreated: 1494598043
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - baseBulletPrefab: {fileID: 1000013916015176, guid: 905895ee3dda0174e98995dcdafb6adc,
+      type: 2}
+  - fistGunBulletPrefab: {fileID: 1000013052707638, guid: ff1078b62ee238f438006d2d8c70ff36,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

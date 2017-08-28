@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: background1
+      value: 
+      objectReference: {fileID: 1000011878355874, guid: 9292273c3febe914db054ce79e5cdb63,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: background2
+      value: 
+      objectReference: {fileID: 1000011878355874, guid: 9292273c3febe914db054ce79e5cdb63,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: debrisGenerator
+      value: 
+      objectReference: {fileID: 115596, guid: a51e17c657e91d7469225cdcad49ef38, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011592091428}
+  m_IsPrefabParent: 1
+--- !u!1 &1471661860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013492597456}
+  - 114: {fileID: 114000013176746912}
+  m_Layer: 0
+  m_Name: LevelCreator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &-1219317040
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011592091428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.8474889, y: 2.545452, z: -1.0558548}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &1909076896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011592091428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f5bde10e12be8140bd4d79c3221e181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 118876, guid: a5498d21b4a73724f80338ee80875f17, type: 2}
+  spawner: {fileID: 1000014100585292, guid: a0df1e7bcbd78b4408bdf7a7de6bd29b, type: 2}
+  gameSpawner: {fileID: 0}
+  sides: {fileID: 1000013011658216, guid: a49d61a3895312247a38395bfd5293f2, type: 2}
+  scoreManager: {fileID: 1000011516976698, guid: 1179c7fc7a1a6ca49bc8d9cd5d4ab7a1,
+    type: 2}
+  gameUI: {fileID: 1000012091976690, guid: 390d6c09f821c33449ded02cf6e79388, type: 2}
+  background1: {fileID: 1000011878355874, guid: 9292273c3febe914db054ce79e5cdb63,
+    type: 2}
+  level1Logic: {fileID: 1000013107161618, guid: 7d0af200a32b67344937564f09938330,
+    type: 2}
+  background2: {fileID: 1000011878355874, guid: 9292273c3febe914db054ce79e5cdb63,
+    type: 2}
+  level2Logic: {fileID: 0}
+  debrisGenerator: {fileID: 115596, guid: a51e17c657e91d7469225cdcad49ef38, type: 2}
